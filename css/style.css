@@ -1,10 +1,18 @@
-/* -------------------------------------body---------------------------------------*/
+/* --------------body--------------*/
 
 * {
 	font-family: 'Raleway', sans-serif;
 }
 
-/* -------------navigation------------*/
+h1 {
+	font-size: 3vh;
+}
+
+p {
+	font-size: 2vh;
+}
+
+/* -----------navigation-----------*/
 /* -------------navbar------------*/
 .navbar {
 	width: 95%;
@@ -37,6 +45,27 @@
 	padding-top: 3rem;
 }
 
-/* -------------footnav------------*/
+/* -------------header------------*/
+header {
+	width: 95%;
+    margin: auto;
+}
 
-/* ------------------------------------header------------------------------------*/
+form{
+    margin-bottom: 24px;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: flex-start 
+	align-items: center;
+}
+
+.filter {
+	display: flex;
+	width: 60%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* -------------footnav------------*/
