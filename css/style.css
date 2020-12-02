@@ -1,3 +1,40 @@
+/* -------------------------------------body---------------------------------------*/
+
 * {
 	font-family: 'Raleway', sans-serif;
+}
+
+/* -------------navigation------------*/
+/* -------------navbar------------*/
+.navbar {
+	width: 95%;
+	min-height: 15vh;
+    display: flex;
+    margin: auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+	
+}
+
+.nav-links li {
+    padding: 0rem 2rem;
+    font font-size: 1.5rem;;
+}
+
+.nav-links a {
+    
+    text-decoration: none;
+	
+}
+
+/* -------------footnav------------*/
+
+
+/* ------------------------------------header------------------------------------*/
+header {
 }
