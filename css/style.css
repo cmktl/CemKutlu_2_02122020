@@ -1,14 +1,22 @@
-/* --------------body--------------*/
+/* --------------CSS RESET--------------*/
 
 * {
-	font-family: 'Raleway', sans-serif;
 	margin: 0;
 	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Raleway', sans-serif;
 	box-sizing: border-box;
 }
 
+/* --------------body--------------*/
+
 body {
-	margin: 0 50px 0 50px;
+	margin: auto;
+	width: 1920px;
+	height: auto;
 }
 
 h1 {
@@ -33,7 +41,7 @@ p {
 /* -----------navigation-----------*/
 /* -------------navbar------------*/
 .navbar {
-	width: 95%;
+	width: 80%;
 	min-height: 7vh;
 	display: flex;
 	justify-content: space-between;
@@ -64,7 +72,7 @@ p {
 
 /* -------------header------------*/
 header {
-	width: 95%;
+	width: 50%;
 }
 
 form {
@@ -84,11 +92,20 @@ form {
 	align-items: center;
 }
 
+/* -------------main------------*/
+
+.layout {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
 /* -------------section hebergement------------*/
 .hebergement {
 	background-color: #f2f2f2;
-	width: 60%;
-	margin: 25px 0px 25px 0px;
+	width: 50%;
+	margin: 25px 50px 25px 0px;
 	padding: 2vh;
 	border-radius: 25px;
 }
@@ -127,7 +144,6 @@ form {
 /* -------------aside------------*/
 aside {
 	background-color: #f2f2f2;
-	width: 40%;
 	margin: 25px 0px 25px 0px;
 	padding: 2vh;
 	border-radius: 25px;
@@ -211,6 +227,15 @@ aside {
 
 .columns ul {
 	list-style-type: none;
+	text-decoration: none;
+}
+.columns a {
+	text-decoration: none;
+	color: black;
+}
+
+.columns a:hover {
+	color: #0065fc;
 }
 
 .columns li {
