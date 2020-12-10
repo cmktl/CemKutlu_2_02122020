@@ -13,12 +13,6 @@
 
 /* ----------------------------*/
 
-@media screen and (max-width: 600px) {
-	body {
-		background-color: olive;
-	}
-}
-
 /* --------------body--------------*/
 
 main {
@@ -28,9 +22,8 @@ main {
 
 .layout {
 	display: flex;
-	flex-direction: row-reverse;
-	flex-shrink: 1;
-	width: 100%;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
 }
 
 h1 {
@@ -109,43 +102,59 @@ p {
 .fa-chart-line {
 	margin-top: 5px;
 }
-/* -----------header-----------*/
-header {
-	display: flex;
-	justify-content: space-between;
-	width: 80%;
-	margin: 25px auto 25px;
+
+.fa-search {
+	display: none;
+	visibility: hidden;
 }
 /* -------------navbar------------*/
-.navbar {
-	width: 100%;
+
+header {
+	width: 80%;
 	margin: auto;
-	min-height: 7vh;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
+	padding: 25px 0px 25px 0px;
+	display: grid;
+	grid-template-columns: 3fr 1fr 1fr;
+	grid-template-areas: 'logo navbar inscription';
 }
 
-.nav-links {
-	color: #0065fc;
+.logo {
+	grid-area: logo;
+}
+
+.navbar {
+	grid-area: navbar;
+}
+
+.navbar ul {
 	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	color: #0065fc;
 	list-style: none;
 }
 
-.nav-links li {
-	padding: 0rem 2rem;
-	font-size: 1rem;
-}
-
-.nav-links a {
+.navbar a {
 	text-decoration: none;
 	color: black;
 }
-
-.nav-links a:hover {
+.navbar a:hover {
+	border-top: 3px solid #0065fc;
+	padding-top: 38px;
 	color: #0065fc;
-	border-top: solid;
-	padding-top: 2.7rem;
+}
+
+.inscription {
+	grid-area: inscription;
+}
+
+.inscription a {
+	color: #0065fc;
+	text-decoration: none;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
 }
 
 form {
@@ -168,6 +177,11 @@ input[type='search'] {
 	opacity: 1;
 }
 
+.container-filter {
+	display: flex;
+	align-items: center;
+}
+
 .filter {
 	display: flex;
 	flex-wrap: wrap;
@@ -175,7 +189,7 @@ input[type='search'] {
 }
 
 strong {
-	margin-right: 25px;
+	margin: 0px 25px 25px 0px;
 }
 
 .btn-filter {
@@ -202,10 +216,11 @@ strong {
 /* -------------section hebergement------------*/
 .hebergement {
 	background-color: #f2f2f2;
-	margin: 25px 50px 25px 0px;
 	padding: 3vh;
 	border-radius: 25px;
+	flex: 60%;
 	height: 600px;
+	margin-right: 50px;
 }
 
 .container {
@@ -259,9 +274,9 @@ strong {
 /* -------------aside------------*/
 aside {
 	background-color: #f2f2f2;
-	margin: 25px 50px 25px 0px;
-	padding: 2vh;
+	padding: 3vh;
 	border-radius: 25px;
+	flex: 20%;
 	height: 600px;
 }
 
