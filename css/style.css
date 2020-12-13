@@ -203,6 +203,14 @@ strong {
 	padding-right: 15px;
 	background-color: white;
 	font-weight: 400px;
+
+	background: linear-gradient(to left, white 50%, rgb(222 235 255) 50%) right;
+	background-size: 200%;
+	transition: 0.5s ease-out;
+}
+
+.btn-filter:hover {
+	background-position: left;
 }
 
 .item-filter-btn {
