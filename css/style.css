@@ -15,6 +15,11 @@
 
 /* --------------body--------------*/
 
+body {
+	width: 1920px;
+	margin: auto;
+}
+
 main {
 	width: 80%;
 	margin: auto;
@@ -218,8 +223,8 @@ strong {
 	background-color: #f2f2f2;
 	padding: 3vh;
 	border-radius: 25px;
-	flex: 60%;
-	height: 600px;
+	flex: 55%;
+
 	margin-right: 50px;
 }
 
@@ -259,7 +264,6 @@ strong {
 
 .hebergement a {
 	color: black;
-	margin-left: 50px;
 	text-decoration: none;
 }
 
@@ -277,7 +281,6 @@ aside {
 	padding: 3vh;
 	border-radius: 25px;
 	flex: 20%;
-	height: 600px;
 }
 
 .header-aside {
@@ -333,6 +336,11 @@ aside {
 	border-radius: 15px;
 	box-shadow: 0 0 1rem #0000002e;
 }
+
+.item-activite > a {
+	text-decoration: none;
+	color: black;
+}
 .item-activite figcaption {
 	padding: 10px 0px 0px 15px;
 	font-weight: 600;
@@ -369,6 +377,14 @@ aside {
 
 #frioul img {
 	height: 8rem;
+}
+
+#garde img {
+	height: 10rem;
+}
+
+#parc img {
+	height: 10rem;
 }
 
 /* -------------footnav--------- */
