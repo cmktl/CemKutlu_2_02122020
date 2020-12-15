@@ -5,8 +5,12 @@
 * Browsers: last 4 version
 */
 
-@media screen and (min-device-width: 600px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 	/* -------------header & nav--------- */
+
+	body {
+		width: 100%;
+	}
 
 	main {
 		width: 100%;
