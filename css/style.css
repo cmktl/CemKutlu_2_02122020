@@ -305,6 +305,12 @@ strong {
 	border-radius: 0px 15px 15px 0px;
 }
 
+.info-search {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 25px;
+}
+
 /* -------------section hebergement------------*/
 .hebergement {
 	background-color: #f2f2f2;
@@ -313,8 +319,8 @@ strong {
 	-webkit-box-flex: 55%;
 	-ms-flex: 55%;
 	flex: 55%;
-
 	margin-right: 50px;
+	margin-bottom: 25px;
 }
 
 .container {
@@ -378,9 +384,7 @@ aside {
 	background-color: #f2f2f2;
 	padding: 3vh;
 	border-radius: 25px;
-	-webkit-box-flex: 20%;
-	-ms-flex: 20%;
-	flex: 20%;
+	margin-bottom: 25px;
 }
 
 .header-aside {
