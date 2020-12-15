@@ -19,12 +19,11 @@
 	box-sizing: border-box;
 }
 
-/* ----------------------------*/
-
 /* --------------body--------------*/
 
 body {
-	width: 1920px;
+	max-width: 1920px;
+	margin: auto;
 }
 
 main {
@@ -207,6 +206,7 @@ input[type='search'] {
 	padding: 6px;
 	line-height: 2;
 	border: 1px solid #f2f2f2;
+	-webkit-appearance: none;
 }
 
 ::-webkit-input-placeholder {
@@ -263,7 +263,7 @@ strong {
 	border: 2px solid #f2f2f2;
 	padding-right: 15px;
 	background-color: white;
-	font-weight: 400px;
+	font-weight: 400;
 
 	background: -webkit-gradient(
 			linear,
@@ -440,11 +440,11 @@ aside {
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin: auto;
+	margin: 50px auto;
 }
 
 .columns {
-	margin: 25px;
+	margin: auto;
 }
 
 .item-activite {
@@ -473,7 +473,6 @@ aside {
 }
 
 .columns:nth-child(even) > .item-activite:nth-child(-n + 2) {
-	margin-bottom: 40px;
 	width: 350px;
 	height: 205px;
 }
@@ -485,6 +484,7 @@ aside {
 
 #fort {
 	height: 230px;
+	margin-bottom: 30px;
 }
 #fort img {
 	height: 11rem;
@@ -496,6 +496,10 @@ aside {
 
 #frioul img {
 	height: 8rem;
+}
+
+#garde {
+	margin-bottom: 30px;
 }
 
 #garde img {
