@@ -22,12 +22,7 @@
 /* --------------body--------------*/
 
 body {
-	max-width: 1920px;
-	margin: auto;
-}
-
-main {
-	width: 80%;
+	max-width: 1440px;
 	margin: auto;
 }
 
@@ -124,7 +119,6 @@ p {
 /* -------------navbar------------*/
 
 header {
-	width: 80%;
 	margin: auto;
 	padding: 25px 0px 25px 0px;
 	display: -ms-grid;
@@ -314,12 +308,12 @@ strong {
 /* -------------section hebergement------------*/
 .hebergement {
 	background-color: #f2f2f2;
-	padding: 3vh;
+	padding: 2vh;
 	border-radius: 25px;
 	-webkit-box-flex: 55%;
 	-ms-flex: 55%;
 	flex: 55%;
-	margin-right: 50px;
+	margin-right: 2%;
 	margin-bottom: 25px;
 }
 
@@ -434,6 +428,7 @@ aside {
 }
 
 .content-aside {
+	padding: 1%;
 	margin: 15px 0px 0px 15px;
 }
 
@@ -448,12 +443,13 @@ aside {
 }
 
 .columns {
-	margin: auto;
+	width: 25%;
 }
 
 .item-activite {
-	width: 300px;
-	height: 450px;
+	margin: auto;
+	width: 80%;
+	height: 100%;
 	border-radius: 15px;
 	-webkit-box-shadow: 0 0 1rem #0000002e;
 	box-shadow: 0 0 1rem #0000002e;
@@ -464,7 +460,7 @@ aside {
 	color: black;
 }
 .item-activite figcaption {
-	padding: 10px 0px 0px 15px;
+	padding: 3%;
 	font-weight: 600;
 }
 
@@ -472,30 +468,25 @@ aside {
 	-o-object-fit: cover;
 	object-fit: cover;
 	width: 100%;
-	height: 25rem;
+	height: 90%;
 	border-radius: 15px 15px 0px 0px;
 }
 
 .columns:nth-child(even) > .item-activite:nth-child(-n + 2) {
-	width: 350px;
+	width: auto;
 	height: 205px;
 }
 
-.columns:nth-child(even) > .item-activite:nth-child(-n + 2) > img {
-	width: 100%;
-	height: 10rem;
-}
-
 #fort {
-	height: 230px;
+	height: 55%;
 	margin-bottom: 30px;
 }
 #fort img {
-	height: 11rem;
+	height: 12rem;
 }
 
 #frioul {
-	height: 180px;
+	height: 38%;
 }
 
 #frioul img {
