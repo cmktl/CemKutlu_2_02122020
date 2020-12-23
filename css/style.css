@@ -308,13 +308,13 @@ strong {
 /* -------------section hebergement------------*/
 .hebergement {
 	background-color: #f2f2f2;
-	padding: 2vh;
 	border-radius: 25px;
 	-webkit-box-flex: 55%;
 	-ms-flex: 55%;
 	flex: 55%;
 	margin-right: 2%;
 	margin-bottom: 25px;
+	padding: 25px;
 }
 
 .container {
@@ -326,6 +326,7 @@ strong {
 	-ms-flex-pack: distribute;
 	justify-content: space-around;
 	margin-bottom: 15px;
+	padding: 10px;
 }
 
 .item-hebergement {
@@ -365,18 +366,20 @@ strong {
 	text-decoration: none;
 }
 
-.hebergement a:hover {
-	color: #0065fc;
+.hebergement h2 {
+	margin: 25px 40px 10px;
 }
 
-.hebergement h2 {
-	margin: 20px 40px 10px;
+.hebergement span {
+	font-size: 18px;
+	font-weight: 600;
+	margin-left: 40px;
 }
 
 /* -------------aside------------*/
 aside {
 	background-color: #f2f2f2;
-	padding: 3vh;
+	padding: 40px;
 	border-radius: 25px;
 	margin-bottom: 25px;
 }
